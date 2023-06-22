@@ -1,13 +1,13 @@
 * {
     margin: 0;
-    padding: 0;
+	padding: 0;
 }
 
 html,body{
     width: 100%;
     box-sizing: border-box;
     font-family: Sora, Poppins, sans-serif;
-    background-image: url(image/bg-page-desktop-1920x.jpg);
+    background-image: url(../image/bg-page-desktop-1920x.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,20 +34,20 @@ html,body{
 }
 
 .social-links{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;        
     margin: 0 auto;
 
 }
 
-.social-links div{
+.social-links div a{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;    
-    justify-content: center;
-    margin-bottom: 10px;
+    align-items: center;
+    margin-bottom: 10px;    
+    justify-content: space-between;
     padding: 15px;
     border-radius: 4px;
     gap: 10px;
@@ -62,16 +62,14 @@ html,body{
 
 .social-links a {
     text-decoration: none;
-    margin: 0 auto;
+    margin: 0 0;
     color: white;
     font-size: 16px;
-    max-width: 250px;
-    width: 100%;
 }
 
 .social-links svg {
     text-decoration: none;
-    margin: 0 auto;
+    margin: 0 0;
     color: white;
     font-size: 16px;
 }
@@ -108,7 +106,7 @@ p{
     }
 
     body{
-        background-image: url(image/bg-page-mobile-800px.jpg);
+        background-image: url(../image/bg-page-desktop-1920x.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
