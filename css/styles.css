@@ -7,7 +7,7 @@ html,body{
     width: 100%;
     box-sizing: border-box;
     font-family: Sora, Poppins, sans-serif;
-    background-image: url(/Website/image/bg-page-desktop-1920x.jpg);
+    background-image: url(image/bg-page-desktop-1920x.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ p{
     }
 
     body{
-        background-image: url(/Website/image/bg-page-mobile-800px.jpg);
+        background-image: url(image/bg-page-mobile-800px.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
