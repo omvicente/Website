@@ -7,11 +7,8 @@ html,body{
     width: 100%;
     box-sizing: border-box;
     font-family: Sora, Poppins, sans-serif;
-    background-image: url(../image/bg-page-desktop-1920px.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background: #361860;
+    background: radial-gradient(at center top, #361860, #010101);
 }
 
 .container{    
@@ -104,13 +101,6 @@ p{
 
     p{
         width: 80%;
-    }
-
-    body{
-        background-image: url(../image/bg-page-mobile-800px.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
 
