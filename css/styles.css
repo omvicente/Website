@@ -53,11 +53,12 @@ html,body{
     gap: 10px;
     background-color: #361860;
     width: 300px;
-    transition: transform 200ms ease-in-out;
+    transition: transform 400ms ease-in-out;
 }
 
-.social-links div:hover{
-    transform: scale(1.05);
+.social-links div a:hover{
+    transform: scale(1.02);
+    background-color: #691ed3;
 }
 
 .social-links a {
